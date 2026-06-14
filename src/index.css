@@ -34,7 +34,7 @@
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
-    --bg: #16171d;
+    --bg: #051424;
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #c084fc;
@@ -55,7 +55,6 @@ body {
 }
 
 #root {
-  width: 1126px;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -109,3 +108,102 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.nav-div {
+  background-color: #08060d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ul {
+  display: none;
+}
+
+.burguer-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-div {
+  display: flex;
+  height: 30vh;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.span-titulo {
+  color: white;
+  font-size: 21px;
+}
+.button-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-boton {
+  border-radius: 0%;
+  color: #051424;
+  height: 4vh;
+}
+
+.project {
+  height: 4vh;
+  background-color: #051424;
+  border-radius: 0%;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* El contenedor del interruptor */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Ocultamos el checkbox original */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* El diseño del fondo (la pista) */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0D1C2D; /* Gris oscuro */
+  transition: .4s;
+  border-radius: 34px;
+}
+
+/* El cuadro interior (el botón) */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #00E5FF; /* Azul cian de la imagen */
+  transition: .4s;
+  border-radius: 4px; /* Bordes ligeramente redondeados */
+}
+
+/* Estilo cuando está activado (opcional: cambia el fondo) */
+input:checked + .slider {
+  background-color: #1a252f;
+}
+
+/* Movimiento del botón al hacer clic */
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
