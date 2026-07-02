@@ -155,6 +155,20 @@ code {
   border: 1px solid #fff;
   color: #fff;
 }
+.services {
+  display: flex;
+  flex-direction: column;
+}
+.div-services-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+}
+.div-services {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1%;
+  margin-bottom: 6%;
+}
 
 /* El contenedor del interruptor */
 .switch {
