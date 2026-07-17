@@ -156,6 +156,23 @@ code {
   color: #fff;
 }
 
+.apartado-tech {
+  display: flex;
+  flex-direction: column;
+  background-color: #0D1C2D;
+  align-items: center;
+}
+.techstack-containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(47, 48, 58, 0.5);
+  width: 60%;
+  height: 20vh;
+  background-color: #051424;
+}
+
 /* El contenedor del interruptor */
 .switch {
   position: relative;
@@ -206,4 +223,47 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px);
 }
-
+.deployement-plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mvp-start-div {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10%;
+  justify-content: space-around;
+  flex-direction: column;
+  border: 2px solid rgba(47, 48, 58, 0.5);
+  width: 60%;
+  height: auto;
+}
+.precios {
+  display: flex;
+  flex-direction: column;
+}
+.blue-icon-check {
+  color: #00E5FF;
+}
+.div-checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+}
+.disable {
+  opacity: 0.5;
+}
+.deploy-mvp, .deploy-pro, .deploy-enterprise {
+  width: 70%;
+  height: 30px;
+  background-color: #051424;
+  border: 2px solid rgba(47, 48, 58, 1);
+  margin: 1rem;
+}
+.deploy-pro {
+  background-color: #00E5FF;
+  border: none;
+}
