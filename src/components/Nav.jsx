@@ -1,5 +1,5 @@
-import { MenuOutlined } from "@ant-design/icons"
 import { Button, Flex } from 'antd';
+import { Icon } from "@iconify/react";
 
 export default function Nav() {
   return (
@@ -15,9 +15,7 @@ export default function Nav() {
         <Flex gap="small" wrap>
           <Button type="primary" size="small">Get</Button>
         </Flex>
-        <Flex >
-          <MenuOutlined />
-        </Flex>
+        <Icon icon="material-symbols:menu" width="3rem"/>
       </div>
     </div>
   )
