@@ -1,13 +1,13 @@
 export default function Footer() {
   return (
-    <div>
-        <footer>
-            <ul>
-                <li>Elemento 1</li>
-                <li>Elemento 2</li>
-                <li>Elemento 3</li>
+    <>
+        <footer className="footer">
+            <ul className="ul-footer">
+                <li className="li-footer">GITHUB</li>
+                <li className="li-footer">LINKEDIN</li>
+                <li className="li-footer">DOCUMENTACION</li>
             </ul> 
         </footer>
-    </div>
+    </>
   )
 }

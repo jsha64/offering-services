@@ -281,3 +281,18 @@ input:checked + .slider:before {
   background-color: #00E5FF;
   border: none;
 }
+.footer {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.ul-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none
+}
+.li-footer {
+  width: 100%;
+  margin-right: 10%;
+}
