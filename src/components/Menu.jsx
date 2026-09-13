@@ -4,7 +4,7 @@ export default function Menu() {
   return (
     < div className="menu-div">
       <div>
-        <span className="span-titulo">DEVELOPER AS A SERVICES</span>
+        <span className="span-titulo">DEVELOPER AS A <span className='span-titulo-final'>SERVICES</span></span>
       </div>
       <div>
         <p>high-performance React & Javascript solutions delivered as high-quality products. Engineering excellence through technical minimalism</p>

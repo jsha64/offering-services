@@ -20,6 +20,7 @@
   color-scheme: light dark;
   color: var(--text);
   background: var(--bg);
+  font-family: 'InterV';
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -127,14 +128,21 @@ code {
 
 .menu-div {
   display: flex;
+  margin-top: 20%;
+  margin-bottom: 20%;
   height: 30vh;
   justify-content: space-around;
   flex-direction: column;
 }
-
+.span-titulo,.project-boton, .project {
+  font-family: 'spacegrotesk';
+} 
 .span-titulo {
   color: white;
-  font-size: 21px;
+  font-size: 1.9rem;
+}
+.span-titulo-final {
+  color: #00E5FF;
 }
 .button-project {
   display: flex;
@@ -142,9 +150,10 @@ code {
   justify-content: center;
   align-items: center;
 }
-.project-boton {
+.ant-btn {
   border-radius: 0%;
   color: #051424;
+  background-color: #00E5FF;
   height: 4vh;
 }
 
@@ -295,4 +304,12 @@ input:checked + .slider:before {
 .li-footer {
   width: 100%;
   margin-right: 10%;
+}
+@font-face {
+  font-family: 'spacegrotesk';
+  src: url(fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'InterV';
+  src: url(fonts/InterVariable.ttf);
 }
