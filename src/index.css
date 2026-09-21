@@ -178,7 +178,11 @@ code {
   padding: 1%;
   margin-bottom: 6%;
 }
-
+.div-services-logotipo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .apartado-tech {
   display: flex;
   flex-direction: column;

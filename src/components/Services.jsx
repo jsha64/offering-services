@@ -8,7 +8,7 @@ export default function Services() {
         </div>
         <div className="div-services-flex">
             <div className="div-services">
-                <div>
+                <div className="div-services-logotipo">
                     <p>Logotipo</p>
                     <p>01</p> 
                 </div>
@@ -18,7 +18,7 @@ export default function Services() {
                 </div>
             </div>
             <div className="div-services">
-                <div>
+                <div className="div-services-logotipo">
                     <p>Logotipo</p>
                     <p>02</p> 
                 </div>
@@ -28,7 +28,7 @@ export default function Services() {
                 </div>
             </div>
             <div className="div-services">
-                <div>
+                <div className="div-services-logotipo">
                     <p>Logotipo</p>
                     <p>03</p> 
                 </div>
